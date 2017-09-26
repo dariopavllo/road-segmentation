@@ -1,6 +1,10 @@
-# EPFL Machine Learning Project 2
-# Road Segmentation
-Dario Pavllo, Mattia Martinelli and Chanhee Hwang
+# Satellite Image Segmentation with Convolutional Neural Networks
+##### Dario Pavllo, Mattia Martinelli, and Chanhee Hwang
+This project presents a technique for segmenting satellite images (labeling each pixel) by using convolutional neural networks. It was developed as final work for the course "Pattern Classification and Machine Learning" taught at EPFL in 2016. In this scenario, the neural net implements a binary classifier that labels each pixel as road or background, but can be adapted to detect any kind of feature (provided that a suitable training set is available).
+
+Our team achieved an accuracy of 93.6% on the test set, and reached the first place on the Kaggle competition organized by EPFL. The details of our technique are explained in the report `report.pdf` and in the poster `conference_poster.pdf`. The results were presented at the Applied Machine Learning Days 2017 in Lausanne.
+
+This repository includes a pre-trained model that can be used to generate predictions, as well as the code to train the model from scratch. The original training and test sets can be downloaded from the Release section.
 
 ### Libraries
 The following libraries must be installed to run the project:
